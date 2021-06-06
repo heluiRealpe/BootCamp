@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Mail o formulario de contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Enviar un Mensaje</h1>
+    </header>
+    <nav>
+        <a href="Ejercicio1_2.html">Principal</a> | 
+        <a href="fotos.html">Fotos</a> | <!--ESTE APARTADO ESTÁ VACÍO-->
+        <a href="videos.html">videos</a> | <!--ESTE APARTADO ESTÁ VACÍO-->
+        <a href="contacto.html">Contacto</a> 
+    </nav>
+    <main>
+        <section><br>Mensaje</section>
+        <section><br>Cita del articulo uno</section>
+        <section><br>Cita del articulo dos</section>
+    </main>
+    <section>
+        <form name="formulario" method="GET" action="procesar.php">
+            <p>
+                <label>Nombre: <input type="text" name="nombre" maxlength="15"></label>
+            </p>
+            <p>
+                <label>Edad: <input type="radio" value="38" name="edad" min="13" max="100">38 años</label>
+            </p>
+            <p>
+                <label>Correo: <input type="email" name="correo"></label>
+            </p>
+            <p>
+                <label>Teléfono: <input type="tel" name="telefono"></label>
+            </p>
+            <p>
+                <label>Sitio Web: <input type="url" name="sitioweb"></label>
+            </p>
+            <p>
+                <input type="date" name="fecha" value="01/04/2021">
+            </p>
+            <p><input type="submit" value="Enviar Datos"></p>
+        </form>
+    </section>
+</body>
+</html>

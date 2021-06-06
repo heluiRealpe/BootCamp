@@ -1,0 +1,65 @@
+h1 {
+    font-size: 60px;
+}
+
+header {
+    margin-left: 300px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+p {
+    color:rgb(27, 17, 3);
+    background-color: rgb(230, 215, 203);
+    font-size: larger;
+    font-size-adjust: inherit;
+    margin-left: 100px;
+    margin-top: auto;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+.primero {
+    color:rgb(27, 17, 3);
+    background-color: rgb(199, 216, 214);
+    font-size: medium;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 350px;
+    float: left;
+}
+
+#canciones {
+    color:rgb(27, 17, 3);
+    background-color: rgb(199, 208, 216);
+    font-size: large;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 350px;
+    float: left;
+}
+
+.ultimo {
+    color:rgb(27, 17, 3);
+    background-color: rgb(211, 199, 216);
+    font-size: large;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 500px;
+    float: left;
+}
+
+h3 {
+    color:black;
+    font-size: x-large;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}

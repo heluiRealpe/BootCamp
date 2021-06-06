@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var library_1 = require("./library");
+var book_1 = require("./book");
+var libro1 = new book_1.Book('Introducción a Javascript', 233, "2344433-BC233333", "Joseph Smith", "Now Editions");
+var libro2 = new book_1.Book('la cosa del libro 2', 123, "645498498-BC233333", "Cirilo", "Alfaguara");
+var libro3 = new book_1.Book('Aquello de allá', 345, "2344433-648489849", "Joseph Campbell", "Alianza Editorial");
+var libro4 = new book_1.Book('Introducción a Javascript2', 456, "2135484-BC233333", "Joseph Smith", "Now Editions");
+var conjuntoLibros = [libro1, libro2, libro3, libro4];
+var library1 = new library_1.Library(conjuntoLibros, "Calle Canarias 57", "Héctor");
+console.log(library1.toString());
+console.log(library1.getNumberOfBooks());
+console.log(library1.findByAuthor("Joseph Smith"));

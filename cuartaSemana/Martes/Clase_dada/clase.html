@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clase.css">
+    <script src="clase.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="row header" id="head" onclick="estiloDinamico()">
+
+        <a onclick="alerta('Primero')" href="">Primero</a>
+        <a onclick="alerta('Segundo')" href="">Segundo</a>
+        <a onclick="alerta('Tercero')" href="">Tercero</a>
+        <a onclick="alerta('Cuarto')" href="">Cuarto</a>
+        <a onclick="alerta('Quinto')" href="">Quinto</a>
+        <a onclick="alerta('Sexto')" href="">Sexto</a>
+
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+
+        <div class="col card">
+
+            <img onclick="imprimePantalla(1, 'Primera imagen')" src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" alt="">
+            <h3 onclick="consola()">Paisaje Bonito</h3>
+            <p onclick="cambiaEstilos()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, eum quas. Iusto aliquid quas quos corporis architecto cum hic, soluta dignissimos quidem, ad pariatur vero perspiciatis est suscipit adipisci odit.</p>
+        </div>
+
+        <div class="col card">
+
+            <img onclick="imprimePantalla(2, 'Segunda imagen')" src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" alt="">
+            <h3 onclick="consola()">Paisaje Bonito</h3>
+
+
+            <div class="row">
+
+                <div class="col">
+
+                    <p onclick="cambiaEstilos()">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        
+        
+                </div>
+
+                <div class="col">
+
+                    <p onclick="cambiaEstilos()">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        
+        
+                </div>
+
+                
+            </div>
+            
+        </div>
+
+        <div class="col card">
+
+            <img onclick="imprimePantalla(3, 'Tercera imagen')" src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" alt="">
+            <h3 onclick="consola()" id="title">Paisaje Bonito</h3>
+            <p onclick="cambiaEstilos()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, eum quas. Iusto aliquid quas quos corporis architecto cum hic, soluta dignissimos quidem, ad pariatur vero perspiciatis est suscipit adipisci odit.</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        
+
+        <form action="" class="col">
+
+            <input id="email" type="email" placeholder="Introduzca email">
+            <input id="pass" type="password" placeholder="Introduzca contraseña">
+            <button type="button" onclick="recogeDatos()">Click aquí</button>
+
+        </form>
+
+
+        
+
+
+    </div>
+
+    <div class="row">
+
+        <p id="parrafo1" onclick="introduceEstructura()">Párrafo de prueba</p>
+    </div>
+
+    <div id="divBloque" class="row">
+
+
+    </div>
+
+    <div class="row footer" style="margin-top: 70px;">
+
+
+    </div>
+
+    
+    
+</body>
+</html>

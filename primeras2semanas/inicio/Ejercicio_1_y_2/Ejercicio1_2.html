@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <title>Este texto es el título del documento</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Este es un documento HTML5">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <link rel="icon" href="computador.jpg" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="misestilos.css">
+    </head>
+    <body>
+        <header id="titulo">
+            <h1>Este es el título</h1>
+            <time datetime="31/03/2021" pubdate>publicado 31/03/2021</time>
+        </header>
+        <nav>
+            <a href="Ejercicio1_2.html">Principal</a> | 
+            <a href="fotos.html">Fotos</a> | <!--ESTE APARTADO ESTÁ VACÍO-->
+            <a href="videos.html">videos</a> | <!--ESTE APARTADO ESTÁ VACÍO-->
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <main>
+            <section id="probando">
+                <br>
+                SEIS TITULARES
+                <h1>Titular 1</h1>
+                <h2>Titular 2</h2>
+                <h3>Titular 3</h3>
+                <h4>Titular 4</h4>
+                <h5>Titular 5</h5>
+                <h6>Titular 6</h6>
+
+                <!--PROBANDO LA SECCIÓN DIV JUNTO A UNA CLASE-->
+                <div class="libros">Libro: IT, Stephen king</div>
+                <div class="libros">Libro: Carrie, Stephen king</div>
+
+                <article>
+                    <pre>
+                        <!--PROBANDO CODE-->
+                        <code>
+                            <code>
+                                function cambiarColor() {
+                                    document.body.style.backgroundColor = "#0000FF";
+                                }
+                                document.addEventListener("click", cambiarColor);
+                            </code>
+                        </code>
+                        <p>La muerte es una <em>quimera</em>: porque mientras yo <mark>existo</mark>, no existe la <i>muerte</i>;<br> y cuando existe la <i>muerte</i>, <strong>ya no existo yo</strong>.<br>
+                        <br></p><cite>Epicuro de Samos</cite>
+                    </pre>
+                    <figure>
+                        <img src="imagen.jpg" width="150" art="foto de mi cv">
+                        <figcaption>foto de mi cv</figcaption>
+                    </figure>
+                    Este es el texto<!--Este es un comentario--> de mi primer artículo
+                </article>
+                <aside>
+                    <ul>
+                        <li>IT, Stephen King</li>
+                        <li>Carrie, Stephen King</li>
+                        <li>El Resplandor, Stephen King</li>
+                        <li>Misery, Stephen King</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <ol type="A" start="3">
+                        <li>IT, Stephen King</li>
+                        <li>Carrie, Stephen King</li>
+                        <li>El Resplandor, Stephen King</li>
+                        <li>Misery, Stephen King</li>
+                    </ol>
+                </aside>
+                <aside>
+                    <dl>
+                        <dt>IT</dt>
+                        <dd>Tras lustros de tranquilidad y lejania una antigua<br> promesa infantil! les hace volver al lugar<br> en el que vivieron su infancia y juventud<br>como una terrible pesadilla.</dd>
+                        <dt>Carrie</dt>
+                        <dd>Sus compañeros se burlan de ella, pero<br>Carrie tiene un don. Puede mover cosas con su<br> mente. Este es su poder y su garn problema.
+                        </dd>
+                        <dt>El Resplandor</dt>
+                        <dd>Al escritor Jack Torrance le es ofrecido un empleo como cuidador del hotel Overlook durante el invierno junto a su familia.</dd>
+                        <dt>Misery</dt>
+                        <dd>Paul Sheldon es un famoso escritor de novelas románticas ambientadas en la época victoriana, cuyo personaje principal se llama Misery Chastain.</dd>
+                    </dl>
+                </aside>
+                <article>
+                    <p style="font-size: 20px;">Este es el texto de mi segundo artículo</p>
+                    <p><a href="#titulo">Volver</a></p>
+                </article>
+                <details>
+                    <summary>Mis libros</summary>
+                    <p>IT</p>
+                    <p>Carrie</p>
+                    <p>El Resplandor</p>
+                    <p>Misery</p>
+                </details>
+            </section>
+            <br>
+            <section>
+                <article>
+                    <table>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Año</th>
+                        <tr>
+                            <td>IT</td>
+                            <td>Stephen King</td>
+                            <td>1986</td>
+                        </tr>
+                        <tr>
+                            <td>Carrie</td>
+                            <td>Stephen King</td>
+                            <td>1986</td>
+                        </tr>
+                        <tr>
+                            <td>El Resplandor</td>
+                            <td>Stephen King</td>
+                            <td>1977</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+            <section id="noticiaslocales">
+                Artículos cortos
+            </section>
+        </main>
+        <br>
+        <footer>
+            <address>Madrid, España</address>
+            <small>&copy; Derechos Reservados 2021<a href="mailto:hrealpe@gmail.com" target="_blank">H.R.</a></small>
+        </footer>
+    </body>
+</html>

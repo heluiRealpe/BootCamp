@@ -1,0 +1,11 @@
+{
+  "name": "entregado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "POO.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

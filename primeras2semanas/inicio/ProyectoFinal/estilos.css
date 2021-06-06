@@ -1,0 +1,30 @@
+header {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+}
+
+th {
+    background-color: rgb(18, 119, 18);
+    color: white;
+    font-weight: bolder;
+    height: 30px;
+}
+
+input {
+    background-color: rgb(38, 38, 141);
+    color: white;
+    width: 20%;
+    height: 35px;
+    font-weight: bold;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}

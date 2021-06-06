@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "60991f8e34e6590248b4f4d7"
+  },
+  "name": "Héctor",
+  "email": "hrealpe@gmail.com",
+  "role": "Administrador",
+  "verified": true
+},{
+  "_id": {
+    "$oid": "60991fc434e6590248b4f4d9"
+  },
+  "name": "nombre3",
+  "email": "nombre3@gmail.com",
+  "role": "Invitado",
+  "verified": false
+},{
+  "_id": {
+    "$oid": "60991fd934e6590248b4f4da"
+  },
+  "name": "nombre4",
+  "email": "nombre4@hotmail.com",
+  "role": "Usuario",
+  "verified": true
+},{
+  "_id": {
+    "$oid": "60991fef34e6590248b4f4db"
+  },
+  "name": "nombre5",
+  "email": "nombre5@gmail.com",
+  "role": "Usuario",
+  "verified": false
+},{
+  "_id": {
+    "$oid": "6099451bfef8e83e0433fb8d"
+  },
+  "name": "nombre4",
+  "email": "nombre4@hotmail.com",
+  "role": "Usuario",
+  "verified": true
+},{
+  "_id": {
+    "$oid": "60994535fef8e83e0433fb8e"
+  },
+  "name": "nombre2",
+  "email": "nombre2@hotmail.com",
+  "role": "Usuario",
+  "verified": false
+}]

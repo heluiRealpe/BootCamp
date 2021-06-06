@@ -1,0 +1,28 @@
+.fila {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.columna {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    background-color: rgb(168, 168, 197);
+}
+
+.header a{
+    padding: 50px;
+    color: white;
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+}
